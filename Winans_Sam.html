@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Sam Winans">
+        <title>Alex G</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ogl5sny.css">
+        <script src="scripts.js" defer></script>
+        
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <nav>
+                    <a href="#"><i id="alexg-logo"><img src="alex-g-logo.png" id="alexg-logo" alt="An abstract illustration of black and white dogs."></i></a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Tour</a></li>
+                    </ul>
+                </nav>
+                <button id="dark-mode-btn"><i class="fas fa-moon"></i>   <i class="fas fa-sun"></i></button>
+            </header>
+
+            <main>
+                <h1>(Sandy) Alex G</h1>
+                <img src="Alex-G-Photo.webp" id="headshot" alt=" Alex G, a white bearded brunette man, looking through a fish bowl.">
+                <section>
+                    <img src="alexg-4.webp" class= "alexgpics" alt=" Alex G holding a light brown acoustic guitar in a white room with a stand of three acoustic guitars right beside him.">
+                    <img src="alexg-2.webp" class= "alexgpics" alt=" Alex G eating a Hershey's bar.">
+                    <img src="alexg-5.webp" class= "alexgpics" alt=" Alex G laying on top of a row of grocery shopping carts.">
+                </section>
+                <section id="discography">
+                    <h2>Discography</h2>
+                    <ul id="discography-btns">
+                        <li id="halo5-btn">DSU</li>
+                        <li id="cod-btn">Beach Music</li>
+                        <li id="forza7-btn">Rocket</li>
+                        <li id="minecraft-btn">House of Sugar</li>
+                    </ul>
+                    <section id="halo5-game" class="discography-section">
+                        <h2>DSU</h2>
+                        <img src="DSU.webp" alt="An illustration of a single football player holding a football on a green field.">
+                        <section>
+                            <h3>DSU (2014)</h3>
+                            <p>Considered by many to be the record that shone a spotlight onto the longtime lo-fi Bandcamp-favorite, DSU is an indie rock record empowered & enlightened by Alex Giannascoli’s bedroom-pop sensibilities. An acronym for “Dream State University,” DSU’s thirteen songs consistently reinvent indie-pop in a way that truly makes the album dream-like, not only because of the serene calmness of tracks like “Skipper” & “Boy,” but also in the hauntingly jarring mid-album number “Axesteel” & the kinetic swelling & pitch-shifting “Icehead." What DSU offers as a whole is a collection of songs that endlessly bend existing indie-rock tropes with Alex G’s sincere strand of otherness, presenting an early but ambitious portrait of one of the next great songwriters of our time.</p>
+                        </section>
+                    </section>
+                    <section id="cod-ww2-game" class="discography-section">
+                        <h2>Beach Music (2015)</h2>
+                        <img src="beachmusic.jpeg" alt="An illustration of a blue skinned person hugging a white monkey in the style of traditional indian art.">
+                        <section>
+                            <h3>Beach Music (2015)</h3>
+                            <p>Beach Music was the first occasion on which (Sandy) Alex G (Alex Giannascoli) did not write all of the album's songs in one sharp burst. Instead, he wrote the songs around his touring schedule, the result of which is an eclectic album that oscillates wildly in style, depending on what he was listening to at the time of writing, from Americana-tinged country to deafening noise-rock.</p>
+                        </section>
+                    </section>
+                    <section id="forza-7-game" class="discography-section">
+                        <h2>Rocket</h2>
+                        <img src="rocket-album.jpeg" alt="An illustration of a bighorn sheep standing on a field of grass.">
+                        <section>
+                            <h3>Rocket (2017)</h3>
+                            <p>Rocket is (Sandy) Alex G's eighth full-length release - an assured statement that follows a slate of humble masterpieces. The Philadelphia musician offers a meticulously filtered, distorted document of indie rock. Though it’s his most accessible album, his best traits remain obtuse storytelling and oddly-shaped songs.</p>
+                        </section>
+                    </section>
+                    <section id="minecraft-game" class="discography-section">
+                        <h2>House of Sugar</h2>
+                        <img src="houseofsugar.jpeg" alt="An illustration of a woman skating on ice.">
+                        <section>
+                            <h3>House of Sugar (2019)</h3>
+                            <p>House of Sugar - (Sandy) Alex G’s ninth overall album and his third for Domino - is a highly meticulous, cohesive album: a statement of artistic purpose, showing off his ear for both persistent earworms and sonic adventurism. The enigmatic songwriter’s latest album is full of vignettes that shift to reveal and conceal themselves in ways too unpredictable to be easily faked. It might be his best yet.</p>
+                        </section>
+                    </section>
+                </section>
+
+                <section id="random-num-game">
+                    <h2>Win Free Tickets!</h2>
+                    <p>Want to see Alex G live? Guess his birthday number for a chance to win a pair of tickets!</p>
+                    <input type="number" min="1" max="10" value="1" id="number-input">
+                    <button id="guess-btn">Take A Guess!</button>
+                    <p id="game-msg"></p>
+                </section>
+
+                <section id="form-main">
+                    <h2>Want To Book Alex G?</h2>
+                    <p>Connect with his booking team directly! Fill out the form down below. </p>
+                    <form id="contact-form">
+                        <label for="firstName">First Name:*</label>
+                        <input type="text" name="firstName" id="firstName">
+
+                        <label for="lastName">Last Name:*</label>
+                        <input type="text" name="lastName" id="lastName">
+
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email">
+
+                        <label for="phone">Phone Number:</label>
+                        <input type="text" name="phone" id="phone">
+
+                        <fieldset>
+                            <legend>Preferred Method of Contact*</legend>
+
+                            <section id="radio-btns">
+                                <h4>Radio Buttons</h4>
+
+                                <input type="radio" name="prefContact" id="prefEmail" checked>
+                                <label for="prefEmail">Email</label>
+
+                                <input type="radio" name="prefContact" id="prefPhone">
+                                <label for="prefPhone">Phone</label>
+                            </section>
+
+                        </fieldset>
+
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message"></textarea>
+
+                        <input type="submit" value="Submit" id="submit_button">
+                        <section id="formMsgs">
+                            <h4>Error Messages</h4>
+                            <ul>
+                                <li id="firstNameError" class="error">Please enter a valid first name.</li>
+                                <li id="lastNameError" class="error">Please enter a valid last name.</li>
+                                <li id="emailError" class="error">Please enter a valid email address.</li>
+                                <li id="phoneError" class="error">Please enter a valid phone number.</li>
+                                <li id="messageError" class="error">Please explain details for booking Alex G (date, time, pricing, etc).</li>
+                                <li id="successMessage"></li>
+                            </ul>
+                        </section>
+                    </form>
+                </section>
+            </main>
+
+            <footer>
+                <section>
+                    <h3>Stay Up-To-Date On Alex G! </h3>
+                    <ul>
+                        <li><a href="#"><i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="#c4b2bd" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                          </svg></i></a></li>
+                        <li><a href="#"><i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="#c4b2bd" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="4" y="4" width="16" height="16" rx="4" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                          </svg></i></a></li>
+                        <li><a href="#"><i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="#c4b2bd" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                          </svg></i></a></li>
+                        <li><a href="#"><i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="#c4b2bd" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="3" y="5" width="18" height="14" rx="4" />
+                            <path d="M10 9l5 3l-5 3z" />
+                          </svg></i></a></li>
+                    </ul>
+                </section>
+                <p>Copyright &copy; Sam Winans 2022. This website is for educational purposes only.</p>
+            </footer>
+        </div>
+    </body>
+</html>

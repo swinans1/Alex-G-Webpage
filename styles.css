@@ -1,0 +1,343 @@
+/*------------------------------GLOBAL STYLES------------------------------*/
+* {
+	line-height: 1.5;
+	font-family:"new-order";
+}
+
+#wrapper {
+	width: 1280px;
+	margin: 30px auto 0 auto;
+}
+
+p {
+	font-size: 22px;
+	color: black;
+}
+
+
+/*------------------------------HEADER & NAV------------------------------*/
+
+#alexg-logo {
+	width: 200px;
+	height: 150px; 
+	float: left;
+}
+
+#dark-mode-btn {
+	position: absolute;
+	top: 2%;
+	right: 5%;
+	border-radius: 50px;
+	border: 5px solid white;
+	color: white;
+	font-size: 30px;
+	background-color: black;
+	cursor: pointer;
+}
+
+#dark-mode-btn:hover {
+	border: 5px solid black;
+	color: black;
+	background-color: white;
+}
+
+nav {
+	font-size: 50px;
+	text-align: center;
+}
+
+nav ul {
+	margin: 0 auto;
+	padding-top: 0.5em;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav li {
+	display: block;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav li a {
+	color: black;
+}
+
+nav a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*------------------------------MAIN------------------------------*/
+body {
+	background-color: #ffffff;
+}
+
+h1 {
+	text-align: center;
+	color: #3e1b19;
+	font-size: 70px;
+	margin-right:70px;
+}
+
+
+#headshot {
+	width: 1280px;
+	height:800px;
+	
+}
+
+.alexgpics {
+	grid-template-columns: 1fr 1fr 1fr;
+	width:400px;
+	height: 500px;
+	padding-top: 1em;
+	margin-left:5px;
+	padding-bottom: 1em;
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+
+h2 {
+	font-size: 30px;
+	color:#3e1b19;
+}
+
+/*--------------------GAMES SECTION--------------------*/
+
+#discography {
+	background-color: #82a241;
+	padding: 10px 10px 5px 10px;
+	
+}
+#discography-btns {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#discography-btns li {
+	display: block;
+	width: max-content;
+	padding: 10px 20px;
+	margin: 20px 20px;
+	font-size: 22px;
+	border-radius: 50px;
+	cursor: pointer;
+	background-color:#c4b2bd;
+	color: #36242F;
+
+}
+
+#discography-btns li:hover {
+	background-color:#7777;
+	color: #000000;
+	font-weight: bold;
+}
+
+.discography-section {
+    padding: 20px 40px 40px;
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+	color: black;
+}
+
+.discography-section h2 {
+	display: none;
+}
+
+.discography-section img {
+    margin: 20px 30px 0 0;
+    width: 350px;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.discography-section h3, p {
+    flex: 1 1 auto;
+}
+
+.discography-section h3 {
+    font-size: 25px;
+}
+/*--------------------NUMBER GAME--------------------*/
+#random-num-game input {
+	display: block;
+	border: solid;
+	border-width: 5px;
+	text-align: center;
+	padding: 30px 40px;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 40px;
+	width: 50px;
+}
+
+#guess-btn {
+	display: block;
+	width: max-content;
+	font-size: 20px;
+	border-radius: 50px;
+	border: none;
+	padding: 10px 20px;
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-color:#c4b2bd;
+	color: #36242F;
+	cursor: pointer;
+}
+
+#guess-btn:hover {
+	background-color:#7777;
+	color: #000000;
+	font-weight: bold;
+}
+
+#game-msg {
+	color: #FF2400;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+}
+/*--------------------FORM--------------------*/
+
+#form-main {
+	background-color: #82a241;
+	padding: 5px 15px 5px 10px;
+}
+form {
+	margin: 0 auto;
+	width: 800px;
+	color: black;
+}
+
+form input, form textarea {
+	display: block;
+	width: 50%;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 50px;
+	font-size: 25px;
+	padding: 10px 15px;
+	margin-bottom: 1em;
+}
+
+form label {
+	font-size: 22px;
+	color: black;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+input[type="radio"] {
+	width: 1em;
+	height: 1em;
+}
+
+#radio-btns {
+	display: grid;
+	grid-template-columns: min-content auto;
+	grid-gap: 10px;
+}
+
+#radio-btns h4 {
+	display: none;
+}
+
+#submit_button {
+	width: max-content;
+	font-size: 25px;
+	border-radius: 50px;
+	border: none;
+	padding: 10px 20px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-color:#c4b2bd;
+	color: #36242F;
+}
+
+#submit_button:hover {
+	background-color:#7777;
+	color: #000000;
+	font-weight: bold;
+}
+
+#formMsgs h4 {
+	display: none;
+}
+
+#formMsgs ul li {
+	display: none;
+	list-style-type: none;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.error {
+	color: #FF2400;
+}
+
+#successMessage {
+	color: #ffffff;
+}
+
+/*------------------------------FOOTER------------------------------*/
+footer {
+	text-align: center;
+	padding: 0.25em;
+	background-color: #36242F;
+}
+
+footer ul {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 75px;
+	list-style-type: none;
+}
+
+footer h3 {
+	color: white;
+}
+
+footer a {
+	color: #c4b2bd;
+}
+
+footer a:hover {
+	color: white;
+}
+
+footer p {
+	font-style: italic;
+	font-size: 15px;
+	color: white;
+}
+
+
+/*------------------------------DARK MODE STYLES------------------------------*/
+.dark-body {
+	background-color:#3e1b19;
+}
+
+.dark-text {
+	color:#c4b2bd;
+}
+
+.dark-inputs {
+	border-color:#c4b2bd;
+	background-color:#3e1b19;
+}
